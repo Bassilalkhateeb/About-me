@@ -3,33 +3,34 @@
 let userName = prompt('What is your name ?');
 alert('Welcome to my page'+' ' +userName);
 
-let qo = prompt ('Do you know me well ? Answer yes or no');
+let qo = prompt ('Do you know me well ? Your answer should be yes , no or Y , N ');
 
-if (qo.toLowerCase() === 'yes'){
+if (qo.toLowerCase() === 'yes' || qo.toUpperCase() === 'Y'){
   //   console.log(qo);
   alert('Let\'s see..');
 
 } else{
   //   console.log(qo);
   alert('Read the paragraph below to know a few about me');
-
 }
 
-let qt = prompt ('Do you know what is my study major ? Answer yes or no');
 
-if (qt.toLowerCase() === 'yes'){
+
+let qt = prompt ('Do you know what is my study major ? Your answer should be yes , no or Y , N');
+
+if (qt.toLowerCase() === 'yes' || qt.toUpperCase () === 'Y'){
   //   console.log(qt);
   alert('Good one');
 
 } else{
   //console.log(qt);
   alert('It\'s Civil Engineering');
-  
+
 }
 
-let cat = prompt ('Do I love cats? yes or no');
+let cat = prompt ('Do I love cats? yes , no or Y , N');
 
-if (cat.toLowerCase() === 'yes'){
+if (cat.toLowerCase() === 'yes' || cat.toUpperCase() === 'Y' ){
   //   console.log(cat);
   alert('definitely you know somethings about me!!');
 
@@ -39,9 +40,9 @@ if (cat.toLowerCase() === 'yes'){
 
 }
 
-let qf = prompt ('Do I have a driving license ? yes or no');
+let qf = prompt ('Do I have a driving license ? yes , no or Y , N');
 
-if (qf.toLowerCase() === 'yes'){
+if (qf.toLowerCase() === 'yes' || qf.toUpperCase() === 'Y'){
   // console.log(qf);
   alert('maybe we are friends ');
 } else {
@@ -51,11 +52,11 @@ if (qf.toLowerCase() === 'yes'){
 }
 
 
-let qfi = prompt ('Do you want to be my friend? yes or no');
+let qfi = prompt ('Do you want to be my friend? yes , no or Y , N');
 
-if (qfi.toLowerCase() === 'yes'){
+if (qfi.toLowerCase() === 'yes' | qfi.toUpperCase() === 'Y'){
   //   console.log(qfi);
-  alert('We\'re gonna be besties :D');
+  alert('We\'re gonna be best friends :D');
 
 } else {
   //   console.log(qfi);
