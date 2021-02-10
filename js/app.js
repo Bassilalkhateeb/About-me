@@ -14,7 +14,10 @@ if (qo.toLowerCase() === 'yes' || qo.toUpperCase() === 'Y'){
   alert('Read the paragraph below to know a few about me');
 }
 
-
+function Welcome (userName){
+  alert('Welcome' + userName)
+}
+Welcome(userName);
 
 let qt = prompt ('Do you know what is my study major ? Your answer should be yes , no or Y , N');
 
