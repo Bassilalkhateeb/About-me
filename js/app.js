@@ -92,38 +92,3 @@ while(attempts) {
 
 }
 alert('The number is 4');
-
-let moviesList=['ironman','captin america','Thor','spiderman','black panther','the widow'];
-
-let qSev= prompt('Can you guess which of Marvel heros is my favorite ??');
-
-let attempts2=6;
-
-while(attempts2){
-
-  for(let z=0 ; z<moviesList.length;z++){
-    if(qSev=== moviesList[z]){
-      alert('That is correct :D');
-      
-    }
-
-  }
-
-
-
-
-  attempts2-=1;
-}
-
-
-
-
-
-
-
-
-
-
-
-alert('It was my pleasure to know you'+' ' + userName);
-
