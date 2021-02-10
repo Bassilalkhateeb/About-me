@@ -104,21 +104,26 @@
 let myHero = ['spiderman', 'ironman', 'batman', 'superman', 'hulk', 'thor'];
 let userInput = prompt ('Can you guess which is my fav superhero??');
 
-let attempts2= 0;
 
-while (attempts2<5){
+for (let i=0 ;i <= 6;i++){
+
+
   for (let z=0; z < myHero.length; z++){
-  if (myHero[z]===userInput){
-    alert ('right answer');
-  } else {
-    alert ('wrong answer, try again');
-    userInput = prompt ('try to guess my fav hero');
+    if (myHero[z]===userInput){
+      alert ('right answer');
+      i=7;
+      break;
+    }
+
+
   }
+  if(i === 7){
 
- }
+    break;
 
-  attempts2++;
-  alert('final chance, the right answer ....' + myHero);
-  break;
-  
+  }
+  let fadi=5-i;
+  alert ('wrong answer, try again you have : '+fadi+' attempts left');
+  userInput = prompt ('try to guess my fav hero');
+
 }
