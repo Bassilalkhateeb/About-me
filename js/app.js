@@ -1,114 +1,142 @@
-// 'use strict';
+'use strict';
 
 
-// let userName = prompt('What is your name ?');
+let userName = prompt('What is your name ?');
 
-// function welcome (userName){
+function welcome (userName){
 
-//   alert('Welcome to my page'+' ' +userName);
-// }
-// welcome(userName);
-
-
-// function questionOne() {
-
-//   let qo = prompt ('Do you know me well ? Your answer should be yes , no or Y , N ');
-
-//   if (qo.toLowerCase() === 'yes' || qo.toUpperCase() === 'Y'){
-//   //   console.log(qo);
-//     alert('Let\'s see..');
-
-//   } else{
-//   //   console.log(qo);
-//     alert('Read the paragraph below to know a few about me');
-//   }
-
-// }
-// questionOne();
+  alert('Welcome to my page'+' ' +userName);
+}
+welcome(userName);
 
 
 
-
-// let qt = prompt ('Do you know what is my study major ? Your answer should be yes , no or Y , N');
-
-// if (qt.toLowerCase() === 'yes' || qt.toUpperCase () === 'Y'){
-//   //   console.log(qt);
-//   alert('Good one');
-
-// } else{
-//   //console.log(qt);
-//   alert('It\'s Civil Engineering');
-
-// }
-
-// let cat = prompt ('Do I love cats? yes , no or Y , N');
-
-// if (cat.toLowerCase() === 'yes' || cat.toUpperCase() === 'Y' ){
-//   //   console.log(cat);
-//   alert('definitely you know somethings about me!!');
-
-// } else{
-//   //   console.log(cat);
-//   alert('you are a stranger');
-
-// }
-
-// let qf = prompt ('Do I have a driving license ? yes , no or Y , N');
-
-// if (qf.toLowerCase() === 'yes' || qf.toUpperCase() === 'Y'){
-//   // console.log(qf);
-//   alert('maybe we are friends ');
-// } else {
-//   //   console.log(qf);
-//   alert('fortunately , I have one , I am a good driver');
-
-// }
+let qo = prompt ('Do you know me well ? Your answer should be yes , no or Y , N ');
 
 
-// let qfi = prompt ('Do you want to be my friend? yes , no or Y , N');
-
-// if (qfi.toLowerCase() === 'yes' | qfi.toUpperCase() === 'Y'){
-//   //   console.log(qfi);
-//   alert('We\'re gonna be best friends :D');
-
-// } else {
-//   //   console.log(qfi);
-//   alert('You are going to miss a lot ');
-
-// }
-
-// alert('Now to the guessing game');
-
-// let qs= prompt ('Guess the number from 1-8');
+function questionOne() {
 
 
-// let attempts=4;
-// one();
-// function one() {
+  if (qo.toLowerCase() === 'yes' || qo.toUpperCase() === 'Y'){
+  //   console.log(qo);
+    alert('Let\'s see..');
+
+  } else{
+  //   console.log(qo);
+    alert('Read the paragraph below to know a few about me');
+  }
+
+}
+questionOne();
 
 
-//   while(attempts) {
 
-//     if (Number(qs)>4){
-//       alert('Too High!!');
-//     }
 
-//     else if(Number(qs)<4){
-//       alert('Too low!');
-//     }
+let qt = prompt ('Do you know what is my study major ? Your answer should be yes , no or Y , N');
 
-//     else if(Number(qs) === 4){
-//       alert('That is correct');
-//       alert('You are smart');
-//       break;
-//     }
+function questionTwo() {
+}
 
-//     attempts-=1;
-//     qs=prompt('please try again you have : ' +attempts+ ' remaining!');
+if (qt.toLowerCase() === 'yes' || qt.toUpperCase () === 'Y'){
+  //   console.log(qt);
+  alert('Good one');
 
-//   }
-// }
-// alert('The number is 4');
+} else{
+  //console.log(qt);
+  alert('It\'s Civil Engineering');
+
+}
+questionTwo();
+
+
+let cat = prompt ('Do I love cats? yes , no or Y , N');
+
+function questionThree() {
+  if (cat.toLowerCase() === 'yes' || cat.toUpperCase() === 'Y' ){
+    //   console.log(cat);
+    alert('definitely you know somethings about me!!');
+
+  } else{
+    //   console.log(cat);
+    alert('you are a stranger');
+
+  }
+
+}
+questionThree();
+
+
+
+let qf = prompt ('Do I have a driving license ? yes , no or Y , N');
+
+function questionFour() {
+
+}
+
+if (qf.toLowerCase() === 'yes' || qf.toUpperCase() === 'Y'){
+  // console.log(qf);
+  alert('maybe we are friends ');
+} else {
+  //   console.log(qf);
+  alert('fortunately , I have one , I am a good driver');
+
+}
+questionFour();
+
+
+let qfi = prompt ('Do you want to be my friend? yes , no or Y , N');
+
+function questionFive() {
+
+  if (qfi.toLowerCase() === 'yes' | qfi.toUpperCase() === 'Y'){
+    //   console.log(qfi);
+    alert('We\'re gonna be best friends :D');
+
+  } else {
+    //   console.log(qfi);
+    alert('You are going to miss a lot ');
+
+  }
+
+  alert('Now to the guessing game');
+}
+questionFive();
+
+
+let qs= prompt ('Guess the number from 1-8');
+
+
+
+let attempts=4;
+
+questionSix();
+function questionSix() {
+
+
+  while(attempts) {
+
+    if (Number(qs)>4){
+      alert('Too High!!');
+    }
+
+    else if(Number(qs)<4){
+      alert('Too low!');
+    }
+
+    else if(Number(qs) === 4){
+      alert('That is correct');
+      alert('You are smart');
+      break;
+    }
+
+    attempts-=1;
+    qs=prompt('please try again you have : ' +attempts+ ' remaining!');
+
+  }
+  alert('The number is 4');
+
+}
+
 
 
 let myHero = ['spiderman', 'ironman', 'batman', 'superman', 'hulk', 'thor'];
