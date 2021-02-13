@@ -4,13 +4,25 @@ body h2 {
     text-align: center;
     background-color: rgb(125, 49, 168);
     color: cornsilk;
+    margin-left: 30px;
 
 }
 body {
     background-color: crimson;
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 {
     color: #3df804;
     text-align: center;
 }
+
+ul  {
+    margin-left: 30p;
+}
+
+ol {
+    margin-left: 30px;
+    list-style:square;
+}
+
